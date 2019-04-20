@@ -5,8 +5,8 @@ import re, pyperclip
 #from https://files.eric.ed.gov/fulltext/ED425735.pdf
 #from https://archive.org/stream/campustelephoned1996univ/campustelephoned1996univ_djvu.txt
 #Create regex for phone numbers
-phoneRegex = re.compile(r'''
 # 415-555-0000, 555-0000, (415 555-0000, 555-0000 ext 123)
+phoneRegex = re.compile(r'''
 (
 ((\d\d\d) | (\(\d\d\d\)))?        # area code (optional)
 (\s|-)        # first separator
