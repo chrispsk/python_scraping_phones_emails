@@ -1,0 +1,4 @@
+1) Copy (ctr+c) all the content from this URL for example: https://archive.org/stream/campustelephoned1996univ/campustelephoned1996univ_djvu.txt
+2) Run the program
+
+Conclusion: Will extract all phone numbers and emails from clipboard (copied content)
